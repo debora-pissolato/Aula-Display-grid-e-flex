@@ -1,0 +1,71 @@
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+
+    /* flex-direction: row;  Itens em uma linha */
+    /* justify-content: center; */
+    /* flex-wrap: wrap;  Permite que os itens quebrem para a próxima linha */
+     margin: 0 auto; /*  Centraliza o contêiner na página */
+     max-width: 960px;  /*Limita a largura do contêiner */
+    
+}    
+
+div{
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    /* margin: 10px;   Espaçamento entre os itens */
+    /* display: flex;   Usando flexbox para o conteúdo interno */
+    /* justify-content: center;  Centraliza o conteúdo horizontalmente */
+    /* align-items: center;  Centraliza o conteúdo verticalmente */
+}
+
+
+
+.alface{
+    background-color:  white;
+    grid-column-start: 1;
+    background-image: url(/img/resized_alface_crespa.webp);
+}
+.tomate{
+    background-color: white;
+    background-image: url(/img/resized_tomato_image.png);
+}
+
+.brocolis{
+    background-color: white;
+    background-image: url(/img/resized_broccoli_image.jpg) ;
+
+}
+
+.pimentao{
+    background-color: white;
+    background-image: url(/img/R_resized.jpg);
+}
+
+.cenoura{
+    background-color: white;
+    background-image: url(/img/cenoura_resized.jpg);
+}
+
+.pimenta{
+    background-color: white;
+    background-image: url(/img/resized_image_300x150\ \(1\).png);
+}
+.milho{
+    background-color: white;
+    background-image: url(/img/resized_image_milho_300x150.png);
+}
+
+.batata{
+    background-color:  white;
+    background-image: url(/img/Batata-Especial-1-unidade_resized.png);
+}
